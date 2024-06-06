@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="style.css" rel="stylesheet" />
+
+     <!-- Titulo -->
+     <title>Mi Bautizo| Alan Fernando✨</title>
+     <!-- Favicon -->
+     <link rel="icon" type="image/x-icon" href="images/elephant.svg" />
+     <!-- Bootstrap -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"
+  />
+        <!-- Iconos de Bootstrap -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+      />
+
+</head>
+<body>
+    <div class="button-container2">
+        <button type="button" class="custom-button" onclick="reproducirAudio()">
+            <i class="bi bi-play-circle"></i> <span>Reproducir</span>
+          </button>
+    </div>
+
+    <audio id="miAudio">
+        <source src="video/Corazon de Niño - Raul Di Blasio.mp3" type="audio/mp3">
+        Tu navegador no soporta la etiqueta de audio.
+    </audio>   
+    
+    <div class="flip2">
+        <iframe src="https://online.publuu.com/536286/1201710/page/1?embed" width="100%" height="850" scrolling="no" frameborder="0" allowfullscreen="" allow="clipboard-write" class="publuuflip"></iframe>
+    </div>
+    
+   <div class="flip">
+    <iframe src="https://online.publuu.com/536286/1201710/page/1?embed" width="100%" height="1024" scrolling="no" frameborder="0" allowfullscreen="" allow="clipboard-write" class="publuuflip"></iframe>
+   </div>
+
+    <script src="https://unpkg.com/gsap@3.9.1/dist/gsap.min.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
